@@ -3,7 +3,7 @@ clear;close all;clc;
 addpath('liblinear-2.1/matlab');
 
 % Set algorithm parameters
-kernel_type = 'primal';     % kernel type, options: primal,linear  ...
+kernel_type = 'primal';     % kernel type, options: primal,linear,rbf
 options.ReducedDim = 10;    % equal to c
 options.T = 5;              % iterations of inloop
 
@@ -57,7 +57,7 @@ else
         if outloop > 1, Atp = At;end
         %labeling target data
 		if outloop==1
-        P = labeling_target( Xs, Xt, Xs_label, Xt_label, Pt, P);
+                P = labeling_target( Xs, Xt, Xs_label, Xt_label, Pt, P);
 		else
 		P = labeling_target( Ks, Kt, Xs_label, Xt_label, At, P);
 		end
