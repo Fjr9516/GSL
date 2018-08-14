@@ -19,7 +19,6 @@ When you use our code, there are two(GSL)/three(NGSL) main parameters need to be
 
 Once you run the code, please correctly set the path of the data and liblinear toolbox
 
-==========================================
 Please contact leizhang@cqu.edu.cn or jrfu@cqu.edu.cn if there is any problem
 
 Enjoy it!
