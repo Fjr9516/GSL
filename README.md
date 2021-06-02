@@ -1,5 +1,7 @@
 Guided Subspace Learning(GSL demo)
 =======================================
+This is the source code of the GSL method, which has been published as “Guide Subspace Learning for Unsupervised Domain Adaptation“ IEEE Trans.NNLS, 2020.
+
 In the file, there are multiple .m files.
 
 >>GSL.m : Core codes of GSL algorithm.
